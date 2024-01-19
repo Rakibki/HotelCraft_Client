@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 import Navber from "../../components/navber/Navber";
 import Footer from "../../components/footer/Footer";
+import { Grid } from "@mui/material";
 
 const MainLayout = () => {
   return (
-    <div>
+    <Grid>
       <Navber />
       <Outlet />
       <Footer />
-    </div>
+    </Grid>
   );
 };
 
