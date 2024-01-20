@@ -1,0 +1,537 @@
+[
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "95ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/08/room-1.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/08/room-1-950x633.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-3-950x634.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-4-950x631.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Beach",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  },
+
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "50ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-2.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/08/room-1.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-3-950x634.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-4-950x631.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Luxe",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  },
+
+
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "50ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-3.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-3-950x634.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/08/room-1-950x633.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-4-950x631.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Luxe",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  },
+
+
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "50ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-4.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-3-950x634.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/08/room-1-950x633.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-4-950x631.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Luxe",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  },
+
+
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "50ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-7.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-3-950x634.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/08/room-1-950x633.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-4-950x631.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Standard",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  },
+
+
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "50ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-8.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-3-950x634.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/08/room-1-950x633.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-4-950x631.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Standard",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  },
+
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "50ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-6.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-3-950x634.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/08/room-1-950x633.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-4-950x631.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Standard",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  },
+
+
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "50ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-5.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/about-v5-950x1344.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/about-v3-950x1266.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/about-v2-950x1383.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Economy",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  },
+
+  {
+    "location": "Gaular, Norway",
+    "title": "Kinsley is waiting for you!",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "5",
+    "Size": "50ft²",
+    "bedrooms": "2",
+    "bathrooms": "4",
+    "description": "Image for cattle earth. May one Which life divide sea. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet quasi recusandae at",
+    "images": [
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/room-12.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/about-v5-950x1344.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/about-v3-950x1266.jpg",
+      "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/about-v2-950x1383.jpg"
+    ],
+    "host": {
+      "name": "Md Rakib Mia",
+      "image": "https://i.ibb.co/QQP59wn/675b826bec1eb02989dc03f4354c532c-1705425633088-0-webp.webp",
+      "email": "rbepari404gmail.com"
+    },
+    "category": "Economy",
+    "facility": [
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-5.png",
+        "title": "4 private pools"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-3.png",
+        "title": "Air-conditioned"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-1.png",
+        "title": "Airport transfer"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-2.png",
+        "title": "All inclusive"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-6.png",
+        "title": "Free wi-fi"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-8.png",
+        "title": "Laundry"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-7.png",
+        "title": "Smart TV"
+      },
+      {
+        "image": "https://kinsley.bslthemes.com/wp-content/uploads/2021/12/f-4.png",
+        "title": "Under protection"
+      }
+    ]
+  }
+]
