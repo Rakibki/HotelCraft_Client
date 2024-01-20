@@ -1,10 +1,13 @@
-import { Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
+import "./style.css";
 
 const Title = ({ text }) => {
   return (
-    <Typography marginY={10} variant="h3" textAlign={'center'}>
-      {text}
-    </Typography>
+    <Grid marginX={"auto"} width={"40%"}>
+      <div className="one">
+        <Typography variant="h4">{text}</Typography>
+      </div>
+    </Grid>
   );
 };
 

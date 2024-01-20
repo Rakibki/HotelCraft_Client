@@ -8,7 +8,7 @@ import { Grid } from "@mui/material";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Grid marginX={"auto"} maxWidth={"1250px"}>
+    <Grid maxWidth={"1250px"} sx={{margin: "0px auto"}}>
       <AuthProvaider>
         <RouterProvider router={router} />
       </AuthProvaider>

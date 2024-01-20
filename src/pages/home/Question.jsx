@@ -4,7 +4,7 @@ import questios2 from "../../assets/questios2.jpg";
 
 const Question = () => {
   return (
-    <Grid overflow={"hidden"} margin={10} container spacing={3}>
+    <Grid overflow={"hidden"} container spacing={3}>
       <Grid xs={8}>
         <TextField
           id="standard-basic"
