@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import CheckAvailability from "./CheckAvailability";
+import Count from "./Count";
 import Experience from "./Experience";
 import Rooms from "./Rooms";
 import Services from "./Services";
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <Experience />
       <Rooms />
+      <Count />
     </div>
   );
 };
