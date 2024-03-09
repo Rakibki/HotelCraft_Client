@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import Title from "../../shared/title/Title";
 
@@ -7,15 +6,26 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import Room from "../../components/room/Room";
+import Loader from "../../components/loader/Loader";
+import { useQuery } from "@tanstack/react-query";
+import useAxiosLocal from "../../hooks/useAxiosLocal";
 
 const Rooms = () => {
-  const [rooms, setRooms] = useState([]);
+  const axiosLocal = useAxiosLocal();
 
-  useEffect(() => {
-    fetch("rooms.json")
-      .then((res) => res.json())
-      .then((data) => setRooms(data));
-  }, []);
+  const { isPending, data: rooms } = useQuery({
+    queryKey: ["Rooms"],
+    queryFn: async () => {
+      const res = await axiosLocal.get("/api/v1/rooms");
+      return res?.data;
+    },
+  });
+
+  console.log(rooms);
+
+  if (isPending) {
+    return <Loader />;
+  }
 
   return (
     <Grid>
@@ -35,7 +45,7 @@ const Rooms = () => {
           modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
-          {rooms.map((roomData, index) => (
+          {rooms?.map((roomData, index) => (
             <SwiperSlide key={index}>
               <Room roomData={roomData} />
             </SwiperSlide>

@@ -1,8 +1,11 @@
+import axios from "axios";
+
+const axiosLocal = axios.create({
+  baseURL: "http://localhost:3002",
+});
 
 const useAxiosLocal = () => {
-  return (
-    <div>useAxiosLocal</div>
-  )
-}
+  return axiosLocal;
+};
 
-export default useAxiosLocal
+export default useAxiosLocal;

@@ -2,9 +2,11 @@ import { Grid } from "@mui/material";
 import { useContext, useState } from "react";
 import { authContext } from "../../providers/AuthProvaider";
 import uploadeImage from "../../utils/uploadeImage";
+import { updateProfile } from "firebase/auth";
+import auth from "../../firebase/firebase.config";
 
 const Register = () => {
-  const { createUser, user } = useContext(authContext);
+  const { createUser } = useContext(authContext);
   const [error, setError] = useState("");
 
   const handleRegister = async (e) => {
@@ -15,29 +17,27 @@ const Register = () => {
     const file = e.target.file.files[0];
     const image = await uploadeImage(file);
 
-    // if (password.length < 6) {
-    //   return setError("It should be at least 6 characters long.");
-    // }
+    if (password.length < 6) {
+      return setError("It should be at least 6 characters long.");
+    }
 
-    // if (!/[A-Z]/.test(password)) {
-    //   return setError("It should contain at least one uppercase letter.");
-    // }
+    if (!/[A-Z]/.test(password)) {
+      return setError("It should contain at least one uppercase letter.");
+    }
 
-    // if (!/[A-Z]/.test(password)) {
-    //   return setError("It should contain at least one uppercase letter.");
-    // }
+    if (!/[A-Z]/.test(password)) {
+      return setError("It should contain at least one uppercase letter.");
+    }
 
-    // if (!/[!@#$%^&*]/.test(password)) {
-    //   return setError("It should contain at least one special character");
-    // }
+    if (!/[!@#$%^&*]/.test(password)) {
+      return setError("It should contain at least one special character");
+    }
 
-    console.log({ name, email, password, image });
-
-    // await createUser(email, password);
-    // await updateProfile(auth.currentUser, {
-    //   displayName: name,
-    //   photoURL: image,
-    // });
+    await createUser(email, password);
+    await updateProfile(auth.currentUser, {
+      displayName: name,
+      photoURL: image,
+    });
   };
 
   return (

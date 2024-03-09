@@ -1,19 +1,24 @@
 import { Grid, Typography } from "@mui/material";
-import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Loader from "../../components/loader/Loader";
+import useAxiosLocal from "../../hooks/useAxiosLocal";
+import { useQuery } from "@tanstack/react-query";
 
 const RoomDetails = () => {
   const { roomId } = useParams();
-  const [room, setRoom] = useState({});
+  const axiosLocal = useAxiosLocal();
 
-  useEffect(() => {
-    fetch("/rooms.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const roomData = data.find((item) => item._id == roomId);
-        setRoom(roomData);
-      });
-  }, []);
+  const { isPending, data: room } = useQuery({
+    queryKey: ["Room"],
+    queryFn: async () => {
+      const res = await axiosLocal.get(`/api/v1/room/${roomId}`);
+      return res?.data;
+    },
+  });
+
+  if (isPending) {
+    return <Loader />;
+  }
 
   return (
     <Grid>
