@@ -4,10 +4,14 @@ import { authContext } from "../../providers/AuthProvaider";
 import uploadeImage from "../../utils/uploadeImage";
 import { updateProfile } from "firebase/auth";
 import auth from "../../firebase/firebase.config";
+import useAxiosLocal from "../../hooks/useAxiosLocal";
 
 const Register = () => {
   const { createUser } = useContext(authContext);
   const [error, setError] = useState("");
+  const axiosLocal = useAxiosLocal();
+
+  console.log(error);
 
   const handleRegister = async (e) => {
     e.preventDefault();
@@ -16,6 +20,7 @@ const Register = () => {
     const password = e.target.password.value;
     const file = e.target.file.files[0];
     const image = await uploadeImage(file);
+    const role = "Guest";
 
     if (password.length < 6) {
       return setError("It should be at least 6 characters long.");
@@ -38,6 +43,15 @@ const Register = () => {
       displayName: name,
       photoURL: image,
     });
+
+    await axiosLocal.post("/api/v1/users", {
+      name,
+      email,
+      image,
+      role,
+    });
+
+    axiosLocal.post("/api/v1/createToken", { email, role });
   };
 
   return (
