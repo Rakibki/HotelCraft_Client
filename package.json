@@ -28,7 +28,8 @@
     "react-router-dom": "^6.21.1",
     "react-visibility-sensor": "^5.1.1",
     "sort-by": "^1.2.0",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

@@ -10,7 +10,6 @@ const Register = () => {
   const { createUser } = useContext(authContext);
   const [error, setError] = useState("");
   const axiosLocal = useAxiosLocal();
-
   console.log(error);
 
   const handleRegister = async (e) => {
@@ -21,6 +20,7 @@ const Register = () => {
     const file = e.target.file.files[0];
     const image = await uploadeImage(file);
     const role = "Guest";
+
 
     if (password.length < 6) {
       return setError("It should be at least 6 characters long.");
