@@ -13,6 +13,7 @@ const RoomDetails = () => {
   const axiosLocal = useAxiosLocal();
   const { user, loadding } = useContext(authContext);
 
+
   const { isPending, data: room } = useQuery({
     queryKey: ["Room"],
     queryFn: async () => {
@@ -21,9 +22,21 @@ const RoomDetails = () => {
     },
   });
 
-  if (isPending || loadding) {
+  
+  const { isPending: loaaading, data: Comments } = useQuery({
+    queryKey: ["Comments"],
+    queryFn: async () => {
+      const res = await axiosLocal.get(`/api/v1/comments/${roomId}`);
+      return res?.data;
+    },
+  });
+
+  if (isPending || loadding || loaaading) {
     return <Loader />;
   }
+
+  console.log(Comments);
+
 
   const handleComment = async (e) => {
     const userForDb = currentUser();
@@ -48,7 +61,7 @@ const RoomDetails = () => {
   return (
     <Grid>
       <img src={room?.images?.[0]} alt="" />
-      <Typography variant="h2">{room.title}</Typography>
+      <Typography variant="h2">{room?.title}</Typography>
 
       <Grid padding={"40px"}>
         <Typography marginBottom={"30px"} variant="h2">
