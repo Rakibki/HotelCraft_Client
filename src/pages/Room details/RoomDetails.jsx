@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 import { useParams } from "react-router-dom";
 import Loader from "../../components/loader/Loader";
 import useAxiosLocal from "../../hooks/useAxiosLocal";
@@ -13,7 +13,6 @@ const RoomDetails = () => {
   const axiosLocal = useAxiosLocal();
   const { user, loadding } = useContext(authContext);
 
-
   const { isPending, data: room } = useQuery({
     queryKey: ["Room"],
     queryFn: async () => {
@@ -22,7 +21,6 @@ const RoomDetails = () => {
     },
   });
 
-  
   const { isPending: loaaading, data: Comments } = useQuery({
     queryKey: ["Comments"],
     queryFn: async () => {
@@ -31,12 +29,11 @@ const RoomDetails = () => {
     },
   });
 
+  console.log(Comments);
+
   if (isPending || loadding || loaaading) {
     return <Loader />;
   }
-
-  console.log(Comments);
-
 
   const handleComment = async (e) => {
     const userForDb = currentUser();
@@ -58,10 +55,39 @@ const RoomDetails = () => {
     }
   };
 
+  const hanleReservation = async () => {
+    const userForDb = await currentUser();
+    if (!user) {
+      return alert("first Login");
+    }
+
+    const reservationData = {
+      userId: userForDb?.userId,
+      roomId: room?._id,
+      data: new Date().toDateString(),
+      checkInDate: "2001",
+      CheckOutDate: "2002",
+      Adults: 2,
+      Children: 2,
+      roomStatus: "check out",
+    };
+
+    const res = await axiosLocal.post(
+      "/api/v1/room/reservation",
+      reservationData
+    );
+
+    console.log(res);
+  };
+
   return (
     <Grid>
       <img src={room?.images?.[0]} alt="" />
       <Typography variant="h2">{room?.title}</Typography>
+
+      <Button onClick={hanleReservation} variant="contained">
+        reservation
+      </Button>
 
       <Grid padding={"40px"}>
         <Typography marginBottom={"30px"} variant="h2">
